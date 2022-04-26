@@ -1,7 +1,8 @@
-{{page-title "TinymceTest"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+Test Page
 
-{{outlet}}
+<div>
+{{this.value}}
+</div>
+<textarea name="my-editor" {{editor content=this.content onEditorContentChange=(fn (mut this.content))}}></textarea>
+

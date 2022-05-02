@@ -60,6 +60,7 @@
     "prettier": "^2.3.2",
     "qunit": "^2.16.0",
     "qunit-dom": "^1.6.0",
+    "tinymce": "^6.0.2",
     "tinymce-ember": "^3.0.2"
   },
   "engines": {
@@ -67,8 +68,5 @@
   },
   "ember": {
     "edition": "octane"
-  },
-  "dependencies": {
-    "tinymce": "^6.0.1"
   }
 }
